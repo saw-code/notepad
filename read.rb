@@ -1,8 +1,8 @@
 # Подключаем класс Post и его детей: Memo, Link, Task
-require_relative 'post'
-require_relative 'memo'
-require_relative 'link'
-require_relative 'task'
+require_relative 'lib/post'
+require_relative 'lib/memo'
+require_relative 'lib/link'
+require_relative 'lib/task'
 
 # Будем обрабатывать параметры командной строки по-взрослому с помощью
 # специальной библиотеки optparse
